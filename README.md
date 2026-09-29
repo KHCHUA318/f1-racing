@@ -21,7 +21,7 @@ This project is heavily inspired by the YouTuber *Cheesy AI* and optimized/comme
 
 ## 🛠️ Project Structure
 
-* `newcar.py` - The main Python script containing the game engine, car physics, radar geometry, and the NEAT execution loop.
+* `main.py` - The main Python script containing the game engine, car physics, radar geometry, and the NEAT execution loop.
 * `config.txt` - The configuration file for the NEAT-Python library specifying population size, mutation rates, and neural network constraints.
 * `map.png` - The custom race track image file. The window dynamically auto-scales to this file's dimensions.
 * `car.png` - The sprite image asset used for the vehicles.
@@ -47,7 +47,7 @@ pip install pygame neat-python
 Execute the main script to start the training process:
 
 ```bash
-python newcar.py
+python main.py
 ```
 
 ### Important Configuration Note
